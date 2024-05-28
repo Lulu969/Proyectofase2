@@ -1,0 +1,273 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+h1 {
+    font-family: "Uncial Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 15px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.cosito3 {
+    padding-right: 15px;
+}
+
+.cosito3 .btn {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    width: 100%;
+    background-color: #000000;
+
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.boton {
+    font-size: 40px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.cosito1 {
+    background-color: #E59312;
+    color: #E59312;
+    padding: 0px;
+    margin: 0px;
+}
+
+.cosito2 {
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cosito2 img {
+    padding: 40px;
+    height: 200px;
+    border-radius: 30%;
+}
+
+.cosito2 .quote {
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.cosito2 .btn {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.cosito5 {
+    background-color: #8a8782;
+    border-radius: 15%;
+    color: #8a8782;
+}
+
+.familia {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.familia h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.familia p {
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.chefs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.chef {
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.chef img {
+    height: 150px;
+    border-radius: 50%;
+}
+
+.cosito4 {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #000000;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.cosito4 h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.menu-item {
+    background-color: gold;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.footer-logo img {
+
+    padding: 30px;
+    width: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.redes-sociales a {
+    color: #ffffff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.redes-sociales a:hover {
+    color: #3b5998;
+}
+
+@media (max-width: 952px) {
+    .boton {
+        display: block;
+
+    }
+
+    ul {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background: #1A141A;
+        top: 20px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    li a.hover,
+    li a.active {
+        background: none;
+        color: red;
+
+    }
+
+    #check:checked~ul {
+        left: 0;
+    }
+
+}

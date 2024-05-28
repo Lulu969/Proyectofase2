@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.header-right .btn {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+nav {
+    width: 100%;
+    background-color: #000000;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+}
+
+.boton {
+    font-size: 40px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+
+.cosito1 {
+    background-color: #E59312;
+    color: #E59312;
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 952px){
+    .boton {
+        display: block;
+
+    }
+    ul {
+        position: fixed;
+        width: 40%;
+        height: 100vh;
+        background: #1A141A;
+        top: 20px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0px;
+        line-height: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+    }
+    li a.hover, li a.active {
+        background: none;
+        color: red;
+
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+}

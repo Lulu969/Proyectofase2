@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia Sesión</title>
+    <link rel="stylesheet" href="assets/css/iniciar_secion.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Inicia sesión</h2>
+        <p>Inicie sesión ingresando su dirección de correo electrónico y contraseña.</p>
+        <form id="loginForm">
+            <input type="email" class="input-field" placeholder="Dirección de correo electrónico" required>
+            <input type="password" class="input-field" placeholder="Contraseña" required>
+            <a href="#" class="forgot-password">¿Olvidó su contraseña?</a>
+            <button type="submit" class="submit-btn"><a href="index.html"></a>Inicia sesión</button>
+            <label class="remember-me">
+                <input type="checkbox" name="remember" value="yes"> Recuérdame
+            </label>
+            <button type="button" class="google-btn">Iniciar sesión con Google</button>
+        </form>
+        <div id="res1"></div>
+        <p class="signup-link">¿No tienes una cuenta? <a href="registro.html">Inscríbete aquí</a></p>
+    </div>
+    <script src="java/login.js"></script>
+</body>
+</html>

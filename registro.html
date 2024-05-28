@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crea tu Cuenta</title>
+    <link rel="stylesheet" href="assets/css/registro.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Crea tu cuenta</h2>
+        <button class="google-btn">Continuar con Google</button>
+        <form id="registerForm">
+            <input type="email" class="input-field" placeholder="Dirección de correo electrónico" required>
+            <input type="password" class="input-field" placeholder="Contraseña" required>
+            <div class="checkbox-field">
+                <input type="checkbox" id="news" name="news">
+                <label for="news">Recibe noticias, actualizaciones y ofertas</label>
+            </div>
+            <button type="submit" class="submit-btn">Crear una cuenta</button>
+        </form>
+        <div id="res2"></div> 
+        <p>Al crear una cuenta, usted acepta los <a href="#">Términos de Servicio</a> y la <a href="#">Política de Privacidad</a>.</p>
+        <p>¿Ya tienes una cuenta? <a href="iniciar_secion.html">Inicia sesión aquí</a></p>
+    </div>
+    <script src="java/registro.js"></script>
+</body>
+</html>

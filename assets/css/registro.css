@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+.form-container {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+.form-container h2 {
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.form-container .google-btn {
+    background-color: #ffffff;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+.form-container .input-field {
+    background-color: #333;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.form-container .checkbox-field {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.form-container .checkbox-field input {
+    margin-right: 10px;
+}
+.form-container .submit-btn {
+    background-color: #ffaa00;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-container p {
+    color: #ffffff;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.form-container p a {
+    color: #ffaa00;
+    text-decoration: none;
+}
